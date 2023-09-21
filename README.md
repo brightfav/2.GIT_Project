@@ -41,9 +41,25 @@ whenever a commit is made in git a **snapshot** of the present state of my repos
 
 4. I run ***git commit -m "initial commit" to commit my changes to git.
 
-in step 4 adding the ***-m*** flag enables the addition of a comment to the command. it is best practice to always state a reason for the commit being made.  
+in step 4 adding the ***-m*** flag enables the addition of a comment to the command ensure to make it as descriptive as possible. it is best practice to always state a reason for the commit being made.  
 
 ![2 making a commit](https://github.com/brightfav/git-project-2/assets/107005839/fff52bfb-68c0-4442-8802-08914916b491)
+
+
+### Work with branches
+
+a branch in git helps create different copies of my source code which will enable me to make changes to it without affecting my original code.
+
+to create a new branch I use ***git checkout -b new-branch-name***
+
+the image below shows the output of the command
+
+
+
+
+
+
+
 
 
 
