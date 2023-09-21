@@ -16,9 +16,9 @@ First of all, I created a local working directory named **Devops** using ***mkdi
 
 afterward, I changed my working directory to the new directory I created using the ***cd Devops*** 
 
-next i initialize my git using ***git int*** command 
+next, I initialize my git using ***git int*** command 
 
-all these steps is in the image below
+all these steps are in the image below
 
 ![1  create a git repository](https://github.com/brightfav/git-project-2/assets/107005839/b2cdb868-c7f5-42df-b4f3-b1757168ffbb)
 
@@ -56,16 +56,16 @@ the image below shows the output of the command
 
 ![3 creating and switching to a  new branch](https://github.com/brightfav/git-project-2/assets/107005839/5324f43c-872d-4320-98e6-8938e75904b4)
 
-so show all the branch in my local git repository i use the command below.
+so show all the branches in my local git repository I use the command below.
 
 ***git branch***
 
-the image below shows all the availabel branch in my local repository
+the image below shows all the available branches in my local repository
 
 ![4 listing all the branch in the local directory](https://github.com/brightfav/git-project-2/assets/107005839/ba81ebc8-4da0-44fc-952b-7d8aba437916)
 
 
-to change to another branch i typed the command below 
+to change to another branch I typed the command below 
 
 ***git checkout branch-name***
 
@@ -76,9 +76,9 @@ in the image below I changed to a different branch
 
 ### merging one branch to another
 
-for example I have two brances "alpha" and "beta". if i want to add the content of beta into alpha i will do it as listed below
+for example, I have two branches "alpha" and "beta". if I want to add the content of beta into alpha I will do it as listed below
 
-firstly i will change to branch alpha and run the command below
+firstly I will change to branch alpha and run the command below
 
 ***git merge beta***
 
@@ -88,9 +88,9 @@ the image below depicts this process
 
 ### Delete a git branch
 
-after a branch has served it's purpose most often the branch is deleted. 
+after a branch has served its purpose most often the branch is deleted. 
 
-to delete a branch us the command stated below
+to delete a branch use the command stated below
 
 ***git branch d branch-name***
 
@@ -104,9 +104,9 @@ the image below depicts this output
 
 Before doing this I created a GitHub account and created a remote repository on GitHub.
 
-next i copied my GitHub repo link
+next, I copied my GitHub repo link
 
-next, i typed the command below into my git bash terminal to add my remote repository to my local repository
+next, I typed the command below into my git bash terminal to add my remote repository to my local repository
 
 ***git remote add origin my-GitHub-repo-link***
 
@@ -128,9 +128,9 @@ the image below is the output of this command
 
 this command enables me to clone my remote repository into my local repository.
 
-this is can be a convenient way for developers to work on projects even in the absence of internet connection.
+this can be a convenient way for developers to work on projects even in the absence of an internet connection.
 
-the command below is used to clone remote repository into local machine
+the command below is used to clone the remote repository into a local machine
 
 ***git clone my-github-repo-link***
 
